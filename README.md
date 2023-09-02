@@ -8,7 +8,7 @@ Website for selling learning packages with Zarinpal payment gateway and a brief 
 [![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/SoheilaSadeghian/)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](https://github.com/soheilasadeghian/LMS/blob/main/LICENSE)
 
-:star: Star me on GitHub — it helps!
+
 
 ## Overview
 The project “LMS” is a responsive website made with Asp.Net MVC Technology using
@@ -41,8 +41,8 @@ The project “LMS” is a responsive website made with Asp.Net MVC Technology u
 
 ![alt text](https://github.com/soheilasadeghian/LMS/blob/main/LMSPricing/images/zarrinpall.png)
 
-- **Download and install zarinpal package from NuGet.**
-- **controller for handling this scenario in Homecontroller: [code](https://github.com/soheilasadeghian/LMS/blob/main/LMSPricing/Controllers/HomeController.cs)**
+✔️ Download and install zarinpal package from NuGet.
+✔️ controller for handling this scenario in Homecontroller: [code](https://github.com/soheilasadeghian/LMS/blob/main/LMSPricing/Controllers/HomeController.cs)
 
 <br/>
 
