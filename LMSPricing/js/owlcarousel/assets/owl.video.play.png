@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="theme-color" content="#0072a5" />
+	<link rel="profile" href="../../../../../gmpg.org/xfn/11">
+	<link rel="pingback" href="http://anpsthemes.com/anpsthemes/xmlrpc.php">
+    <link rel="shortcut icon" sizes="192x192" href="../../../../icon.png">
+    
+    <script type="text/javascript">
+        function loadStyleSheet(href) {
+            var link = document.createElement('link');
+
+            link.type = 'text/css'
+            link.rel = 'stylesheet'
+            link.href = href
+
+            document.head.appendChild(link)
+        };
+        
+        var styles = [
+            '../../../../../https@fonts.googleapis.com/css@family=Montserrat',
+            '../../../../../https@fonts.googleapis.com/css@family=PT+Sans',
+            '../../../../wp-content/themes/anpsthemes/css/all.css',
+            '../../../../wp-content/plugins/responsive-lightbox/assets/swipebox/css/swipebox.min.css@ver=1.6.8',
+            '../../../../wp-content/plugins/contact-form-7/includes/css/styles.css@ver=4.4.1'
+        ]
+        
+        styles.forEach(function(style) {
+            loadStyleSheet(style);
+        });
+    </script>
+	<title>Page not found - Anpsthemes</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v3.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="noindex,follow"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="Page not found - Anpsthemes" />
+<meta property="og:site_name" content="Anpsthemes" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Page not found - Anpsthemes" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='stylesheet' id='contact-form-7-css'  href='../../../../wp-content/plugins/contact-form-7/includes/css/styles.css@ver=4.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-lightbox-swipebox-css'  href='../../../../wp-content/plugins/responsive-lightbox/assets/swipebox/css/swipebox.min.css@ver=1.6.8' type='text/css' media='all' />
+<script type='text/javascript' defer="defer" src='../../../../anpsthemes/wp-includes/js/jquery/jquery.js@ver=1.12.4'></script>
+<script type='text/javascript' defer="defer" src='../../../../anpsthemes/wp-includes/js/jquery/jquery-migrate.min.js@ver=1.4.1'></script>
+<script type='text/javascript' defer="defer" src='../../../../wp-content/plugins/responsive-lightbox/assets/swipebox/js/jquery.swipebox.min.js@ver=1.6.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var rlArgs = {"script":"swipebox","selector":"lightbox","customEvents":"","activeGalleries":"1","animation":"1","hideCloseButtonOnMobile":"0","removeBarsOnMobile":"0","hideBars":"1","hideBarsDelay":"5000","videoMaxWidth":"1080","useSVG":"1","loopAtEnd":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' defer="defer" src='../../../../wp-content/plugins/responsive-lightbox/js/front.js@ver=1.6.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var anps = {"ajax_url":"../../../../anpsthemes/wp-admin/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' defer="defer" src='../../../../wp-content/themes/anpsthemes/js/all.js@ver=4.5.3'></script>
+<link rel='https://api.w.org/' href='../../../../wp-json/default.htm' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://anpsthemes.com/anpsthemes/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../../anpsthemes/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.5.3" />
+<link rel="icon" href="../../../../wp-content/uploads/2016/03/cropped-mobile-icon-big-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="../../../../wp-content/uploads/2016/03/cropped-mobile-icon-big-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="../../../../wp-content/uploads/2016/03/cropped-mobile-icon-big-180x180.jpg" />
+<meta name="msapplication-TileImage" content="http://anpsthemes.com/wp-content/uploads/2016/03/cropped-mobile-icon-big-270x270.jpg" />
+</head>
+
+<body class="error404">
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><symbol id="bars" viewBox="0 0 1792 1792"><path d="M1664 1344v128q0 26-19 45t-45 19H192q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19H192q-26 0-45-19t-19-45V832q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19H192q-26 0-45-19t-19-45V320q0-26 19-45t45-19h1408q26 0 45 19t19 45z"/></symbol><symbol id="basket" viewBox="0 0 32 28"><path d="M30 12q.828 0 1.414.586T32 14t-.586 1.414T30 16h-.234l-1.797 10.344q-.125.719-.688 1.188T26 28.001H6q-.719 0-1.281-.469t-.688-1.188L2.234 16H2q-.828 0-1.414-.586T0 14t.586-1.414T2 12h28zM7.578 24.5q.406-.031.68-.352t.242-.727l-.5-6.5q-.031-.406-.352-.68t-.727-.242-.68.352-.242.727l.5 6.5q.031.391.32.656t.68.266h.078zm6.422-1V17q0-.406-.297-.703T13 16t-.703.297T12 17v6.5q0 .406.297.703T13 24.5t.703-.297T14 23.5zm6 0V17q0-.406-.297-.703T19 16t-.703.297T18 17v6.5q0 .406.297.703T19 24.5t.703-.297T20 23.5zm5.5.078l.5-6.5q.031-.406-.242-.727t-.68-.352-.727.242-.352.68l-.5 6.5q-.031.406.242.727t.68.352h.078q.391 0 .68-.266t.32-.656zM7.438 4.562L5.985 11H3.922L5.5 4.109q.297-1.375 1.391-2.242T9.391 1H12q0-.406.297-.703T13 0h6q.406 0 .703.297T20 1h2.609q1.406 0 2.5.867T26.5 4.109L28.078 11h-2.063l-1.453-6.438q-.172-.688-.711-1.125t-1.242-.438H20q0 .406-.297.703T19 3.999h-6q-.406 0-.703-.297T12 2.999H9.391q-.703 0-1.242.438t-.711 1.125z"/></symbol><symbol id="behance" viewBox="0 0 1792 1792"><path d="M1720 339h-511v124h511V339zm-252 426q-90 0-146 52.5T1260 960h408q-18-195-200-195zm16 585q63 0 122-32t76-87h221q-100 307-427 307-214 0-340.5-132T1009 1059q0-208 130.5-345.5T1476 576q138 0 240.5 68t153 179 50.5 248q0 17-2 47h-658q0 111 57.5 171.5T1484 1350zm-1335-50h296q205 0 205-167 0-180-199-180H149v347zm0-537h281q78 0 123.5-36.5T599 613q0-144-190-144H149v294zm-277-509h594q87 0 155 14t126.5 47.5 90 96.5T869 566q0 181-172 263 114 32 172 115t58 204q0 75-24.5 136.5t-66 103.5-98.5 71-121 42-134 13h-611V254z"/></symbol><symbol id="check" viewBox="0 0 1792 1792"><path d="M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z"/></symbol><symbol id="close" viewBox="0 0 1792 1792"><path d="M1490 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z"/></symbol><symbol id="codepen" viewBox="0 0 1792 1792"><path d="M216 1169l603 402v-359L485 989zm-62-144l193-129-193-129v258zm819 546l603-402-269-180-334 223v359zm-77-493l272-182-272-182-272 182zM485 803l334-223V221L216 623zm960 93l193 129V767zm-138-93l269-180-603-402v359zm485-180v546q0 41-34 64l-819 546q-21 13-43 13t-43-13L34 1233q-34-23-34-64V623q0-41 34-64L853 13q21-13 43-13t43 13l819 546q34 23 34 64z"/></symbol><symbol id="dribbble" viewBox="0 0 1792 1792"><path d="M1152 1500q-42-241-140-498h-2l-2 1q-16 6-43 16.5t-101 49-137 82T596 1265t-103 148l-15-11q184 150 418 150 132 0 256-52zM967 893q-21-49-53-111-311 93-673 93-1 7-1 21 0 124 44 236.5T408 1334q50-89 123.5-166.5T674 1043t130.5-81 99.5-48l37-13q4-1 13-3.5t13-4.5zM860 681Q740 468 616 303q-138 65-234 186T254 761q302 0 606-80zm684 319q-210-60-409-29 87 239 128 469 111-75 185-189.5t96-250.5zM739 259q-1 0-2 1 1-1 2-1zm590 145q-185-164-433-164-76 0-155 19 131 170 246 382 69-26 130-60.5t96.5-61.5 65.5-57 37.5-40.5zm223 485q-3-232-149-410l-1 1q-9 12-19 24.5t-43.5 44.5-71 60.5-100 65T1037 739q25 53 44 95 2 6 6.5 17.5t7.5 16.5q36-5 74.5-7t73.5-2 69 1.5 64 4 56.5 5.5 48 6.5 36.5 6 25 4.5zm112 7q0 209-103 385.5T1281.5 1561 896 1664t-385.5-103T231 1281.5 128 896t103-385.5T510.5 231 896 128t385.5 103T1561 510.5 1664 896z"/></symbol><symbol id="envelope" viewBox="0 0 1792 1792"><path d="M1792 710v794q0 66-47 113t-113 47H160q-66 0-113-47T0 1504V710q44 49 101 87 362 246 497 345 57 42 92.5 65.5t94.5 48 110 24.5h2q51 0 110-24.5t94.5-48 92.5-65.5q170-123 498-345 57-39 100-87zm0-294q0 79-49 151t-122 123q-376 261-468 325-10 7-42.5 30.5t-54 38-52 32.5-57.5 27-50 9h-2q-23 0-50-9t-57.5-27-52-32.5-54-38T639 1015q-91-64-262-182.5T172 690q-62-42-117-115.5T0 438q0-78 41.5-130T160 256h1472q65 0 112.5 47t47.5 113z"/></symbol><symbol id="eye" viewBox="0 0 1792 1792"><path d="M1664 960q-152-236-381-353 61 104 61 225 0 185-131.5 316.5T896 1280t-316.5-131.5T448 832q0-121 61-225-229 117-381 353 133 205 333.5 326.5T896 1408t434.5-121.5T1664 960zM944 576q0-20-14-34t-34-14q-125 0-214.5 89.5T592 832q0 20 14 34t34 14 34-14 14-34q0-86 61-147t147-61q20 0 34-14t14-34zm848 384q0 34-20 69-140 230-376.5 368.5T896 1536t-499.5-139T20 1029Q0 994 0 960t20-69q140-229 376.5-368T896 384t499.5 139T1772 891q20 35 20 69z"/></symbol><symbol id="facebook" viewBox="0 0 1792 1792"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759H734V905H479V609h255V391q0-186 104-288.5T1115 0q147 0 228 12z"/></symbol><symbol id="github" viewBox="0 0 1792 1792"><path d="M1664 896q0 251-146.5 451.5T1139 1625q-27 5-39.5-7t-12.5-30v-211q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105T1386 856q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27T578 459.5 492 446q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5T484 1274q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 89t.5 54q0 18-13 30t-40 7q-232-77-378.5-277.5T128 896q0-209 103-385.5T510.5 231 896 128t385.5 103T1561 510.5 1664 896z"/></symbol><symbol id="heart" viewBox="0 0 28 28"><path d="M14 26q-.406 0-.688-.281l-9.75-9.406q-.156-.125-.43-.406t-.867-1.023-1.062-1.523-.836-1.891T0 9.314q0-3.437 1.984-5.375t5.484-1.937q.969 0 1.977.336t1.875.906 1.492 1.07T14 5.376q.562-.562 1.188-1.062t1.492-1.07 1.875-.906 1.977-.336q3.5 0 5.484 1.937T28 9.314q0 3.453-3.578 7.031l-9.734 9.375q-.281.281-.688.281z"/></symbol><symbol id="twitter" viewBox="0 0 1792 1792"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5T1369.5 1125 1185 1335.5t-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5T285 1033q33 5 61 5 43 0 85-11-112-23-185.5-111.5T172 710v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5T884 653q-8-38-8-74 0-134 94.5-228.5T1199 256q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></symbol><symbol id="youtube" viewBox="0 0 1792 1792"><path d="M1280 896q0-37-30-54L738 522q-31-20-65-2-33 18-33 56v640q0 38 33 56 16 8 31 8 20 0 34-10l512-320q30-17 30-54zm512 0q0 96-1 150t-8.5 136.5T1760 1330q-16 73-69 123t-124 58q-222 25-671 25t-671-25q-71-8-124.5-58T31 1330q-14-65-21.5-147.5T1 1046 0 896t1-150 8.5-136.5T32 462q16-73 69-123t124-58q222-25 671-25t671 25q71 8 124.5 58t69.5 123q14 65 21.5 147.5T1791 746t1 150z"/></symbol></svg>
+<!-- HEADER -->
+<header class="site-header">
+	<div class="row align-middle">
+		<div class="shrink columns">
+			<a class="site-header__logo" href="../../../../default.htm" rel="home">
+				<img src="../../../../wp-content/themes/anpsthemes/images/logo.svg" alt="Anpsthemes">
+
+				<h1 class="show-for-sr">anpsthemes</h1>
+			</a>
+		</div>
+
+		<div class="columns">
+			<div class="site_header__nav"><ul id="menu-primary-menu" class="menu"><li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="../../../../default.htm">Home</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="../../../../wordpress-themes/default.htm">WordPress themes</a></li>
+<li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="../../../../about-us/default.htm">About us</a></li>
+<li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-102"><a href="../../../../blog/default.htm">Blog</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="../../../../contact/default.htm">Contact</a></li>
+<li id="menu-item-36" class="button button--style-2 menu-item menu-item-type-custom menu-item-object-custom menu-item-36"><a target="_blank" href="../../../../../https@anpsthemes.freshdesk.com/default.htm">Support</a></li>
+</ul></div>
+			<button class="mobile-toggle"><svg><use xlink:href="#bars"></use></svg></button>
+		</div>
+	</div>
+</header>
+<!-- /HEADER -->
+<div class="page-info row text-center">
+   <div class="small-12 columns">
+        <h2 class="title title--404">404</h2>
+        <h3 class="subtitle subtitle--404">Page not found</h3>
+        <p class="desc desc--404">The page you are looking for was moved, removed, renamed or never existed.</p>
+
+        <a href="../../../../default.htm" class="button button--medium button--spacing">Go Home</a>
+        <a href="../../../../contact/default.htm" class="button button--medium button--style-2 button--spacing">Contact Us</a>
+    </div>
+</div>
+
+<footer class="site-footer">
+	<div class="row align-middle">
+		<div class="small-12 columns">
+			<h2 class="title">Trusted by over <strong>13973</strong> users world wide</h2>
+
+			<p class="desc">Get our news, goodies, new items and update notifications regularly <br class="show-for-medium">and keep your anpsthemes products up to date.</p>
+
+			<div class="newsletter" id="newsletter">
+				<input class="newsletter__input" placeholder="Sign up with your email and be up to date">
+				<button class="newsletter__button"><svg class="envelope"><use xlink:href="#envelope"></use></svg><svg class="check"><use xlink:href="#check"></use></svg></button>
+			</div>
+			
+
+			<ul class="social"><li class="social__item"><a href="../../../../../https@www.facebook.com/anpsthemes/default.htm" target="_blank"><svg class="facebook"><use xlink:href="#facebook"></use></svg></a></li><li class="social__item"><a href="../../../../../https@twitter.com/anpsthemes" target="_blank"><svg class="twitter"><use xlink:href="#twitter"></use></svg></a></li><li class="social__item"><a href="../../../../../https@dribbble.com/anpsthemes" target="_blank"><svg class="dribbble"><use xlink:href="#dribbble"></use></svg></a></li><li class="social__item"><a href="../../../../../https@www.behance.net/anps" target="_blank"><svg class="behance"><use xlink:href="#behance"></use></svg></a></li><li class="social__item"><a href="../../../../../https@github.com/anpsthemes" target="_blank"><svg class="github"><use xlink:href="#github"></use></svg></a></li><li class="social__item"><a href="../../../../../https@www.youtube.com/channel/UCoy8q1IBDLGcHhWEG7Ee0Dg" target="_blank"><svg class="youtube"><use xlink:href="#youtube"></use></svg></a></li></ul>
+		</div>
+	</div>
+
+	<div class="copyright-footer">
+		<div class="row">
+			<div class="small-12 columns">
+				made with <svg><use xlink:href="#heart"></use></svg> in Slovenia © <a href="../../../../default.htm">anpsthemes.com</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../../../../../www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75469027-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script type='text/javascript' defer="defer" src='../../../../wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js@ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"../../../../wp-content/plugins/contact-form-7/images/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' defer="defer" src='../../../../wp-content/plugins/contact-form-7/includes/js/scripts.js@ver=4.4.1'></script>
+<script type='text/javascript' defer="defer" src='../../../../anpsthemes/wp-includes/js/wp-embed.min.js@ver=4.5.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"anpsthemes"};
+/* ]]> */
+</script>
+<script type='text/javascript' defer="defer" src='../../../../wp-content/plugins/disqus-comment-system/media/js/count.js@ver=4.5.3'></script>
+</body>
+</html>

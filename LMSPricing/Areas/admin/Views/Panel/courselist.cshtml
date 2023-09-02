@@ -1,0 +1,185 @@
+﻿
+@{
+    ViewBag.Title = "دوره های رزرو شده";
+    Layout = "~/Areas/admin/Views/Shared/_master.cshtml";
+}
+
+<div class="container-fluid">
+    <!-- Page Heading -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                دوره های رزرو شده
+                <small>لیست دوره های رزرو شده</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li>
+                    <i class="fa fa-dashboard"></i>  <a href="/admin/panel/داشبورد">داشبورد</a>
+                </li>
+                <li class="active">
+                    <i class="fa fa-user"></i> لیست دوره های رزرو شده
+                </li>
+            </ol>
+        </div>
+    </div>
+    <!-- /.row -->
+
+    <div class="row">
+
+        <!--start search box-->
+        <div class="col-sm-12 col-md-3">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><i class="fa fa-search"></i> <span id="loader"></span></h3>
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label>فیلتر</label>
+                        <input class="form-control" id="txtFilter">
+                        <p class="help-block">جستجو در نام کاربران</p>
+                    </div>
+                    <hr />
+                    <div class="form-group">
+                        <label>دوره</label>
+                        <select id="slcCourse" class="form-control pt-0">
+                            <option value="0">همه دوره ها</option>
+                            <option value="1">آشپزی</option>
+                            <option value="2">شیرینی پزی</option>
+                            <option value="3">پته دوزی</option>
+                            <option value="4">جاوا</option>
+                        </select>
+                    </div>
+                    <hr />
+                    <div class="form-group">
+                        <label>مرتب سازی براساس</label>
+                        <select id="slcOrderby" class="form-control pt-0">
+                            <option value="5">تاریخ رزرو</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select id="slcOrderType" class="form-control pt-0">
+                            <option value="1">نزولی</option>
+                            <option value="0">صعودی</option>
+                        </select>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div id="msg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end of seach box-->
+
+        <div class="col-sm-12 col-md-9">
+            <div class="list-group">
+                <a class="list-group-item active">
+                    <div class="row hidden-xs">
+                        <div class="col-sm-4">
+                            <h3 class="panel-title">دوره</h3>
+                        </div>
+                        <div class="col-sm-4">
+                            <h3 class="panel-title">کاربر</h3>
+                        </div>
+                        <div class="col-sm-3">
+                            <h3 class="panel-title">تاریخ رزرو</h3>
+                        </div>
+                    </div>
+                    <h3 class="panel-title visible-xs active">لیست دوره های رزرو شده</h3>
+                </a>
+                <div id="lst">
+
+                </div>
+
+            </div>
+            <ul id="paging" class="pagination pagination-sm mt-0">
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="editModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"><span id="modal-loader">جزییات رزرو</span></h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label></label>
+                            <img src="" alt="عکس کاربر" style="width:100px;height:100px;" id="modal-img" />
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>نام‌</label>
+                            <input class="form-control" id="modal-txtfullname">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>شماره تماس</label>
+                            <input class="form-control" maxlength="11" id="modal-txtmobile">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>تاریخ رزرو</label>
+                            <input readonly class="form-control" id="modal-txtregisterdate"
+                                   data-mddatetimepicker="true"
+                                   data-trigger="click"
+                                   data-targetselector="#modal-txtregisterdate"
+                                   data-enabletimepicker="false"
+                                   data-placement="bottom">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label>نام دوره</label>
+                            <input class="form-control" maxlength="11" id="modal-txtcoursename">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <span id="modal-msg"></span>
+                <button id="btn-close" type="button" class="btn btn-default" data-dismiss="modal">خروج</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section js
+{
+    <script src="~/Areas/admin/pages/CourseUser/ajax.js"></script>
+    <script src="~/Areas/admin/pages/CourseUser/js.js"></script>
+    <style>
+        .true{
+            background-color:darkseagreen;
+        }
+        .true:hover{
+            background-color:darkseagreen !important;
+        }
+    </style>
+}

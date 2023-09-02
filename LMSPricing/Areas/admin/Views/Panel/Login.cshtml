@@ -1,0 +1,96 @@
+﻿@using CaptchaMvc.HtmlHelpers
+@using CaptchaMvc;
+@{
+    Layout = null;
+    ViewBag.Title = "ورود";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="توسعه ارتباطات نوین آریا">
+    <title>@ViewBag.Title - مدیریت دورآموز</title>
+
+    @Styles.Render("~/Areas/Content/css")
+    <link href="~/Areas/admin/pages/login/css.css" rel="stylesheet" />
+    @Scripts.Render("~/admin/bundles/script")
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="mt-25 row">
+            <div class="col-md-4 col-sm-2 hidden-xs">
+
+            </div>
+            @using (Html.BeginForm("Login", "Panel", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                <div class="col-md-4 col-sm-8 col-xs-12 ">
+                    <div class="well well-lg bg-white shadow">
+                        <h3 class="text-align-center text-green mt-5">ورود به حساب کاربری</h3>
+                        <hr class="mb-10" />
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label>نام‌کاربری</label>
+                                    <input name="username" class="form-control" id="txtusername">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label>کلمه عبور</label>
+                                    <input name="password" class="form-control" id="txtpassword" type="password">
+                                </div>
+                            </div>
+                        </div><div class="row">
+                            <div class="col-sm-6 col-sm-offset-3">
+                                <div class="form-group">
+                                    @Html.MathCaptcha("بازنشانی", "جواب کد امنیتی را وارد نمایید")
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-sm-6 col-sm-offset-3 col-xs-offset-0">
+                                    <input type="submit" id="btnlogin" class="form-control btn btn-primary" value="ورود">
+                                    <div class="block text-align-center mt-5"><a id="forgetlink" href="/admin/resetpassword/بازیابی-کلمه-عبور">بازیابی کلمه عبور</a></div>
+                                </div>
+                            </div>
+                            @{
+                                if (ViewBag.message != "")
+                                {
+                                    <div class="mt-10 alert alert-danger" role="alert">@ViewBag.message</div>
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+                                }
+
+            <div class="col-md-4 col-sm-2 hidden-xs">
+
+            </div>
+
+        </div>
+        <div class="footer mt-20 ">
+
+            <p>تمامی حقوق این سامانه، متعلق به شرکت بين المللی توسعه ارتباطات نوين آريا (<a href="http://callwithme.com/fa" target="_blank">تانا</a>) می‌باشد.</p>
+            <p>Copyright <span class="font-15">©</span> 2016 - 2017</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+
+    <script>
+        $(function () {
+            $("#CaptchaInputText").addClass("form-control");
+        });
+    </script>
+</body>
+</html>

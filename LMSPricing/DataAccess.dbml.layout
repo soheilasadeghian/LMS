@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataAccess">
+  <DataContextMoniker Name="/DataAccessDataContext" />
+  <nestedChildShapes>
+    <classShape Id="436ed0b5-283c-467c-8d2a-215ce8c3c4e4" absoluteBounds="0.75, 3.75, 2, 2.347801106770834">
+      <DataClassMoniker Name="/DataAccessDataContext/agentTbl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="878978be-cff5-4c29-9966-b9590bd5d44a" absoluteBounds="0.765, 4.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f812d5a3-d6d1-40b5-a915-43e5a4450206" absoluteBounds="0.75, 0.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DataAccessDataContext/userTbl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="be2a1a81-5bf6-419c-8007-156723101416" absoluteBounds="0.765, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="252a479a-0e67-42de-966b-4aa211f4acbc" absoluteBounds="3.75, 3.75, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/DataAccessDataContext/factorTbl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0d32e3b2-5a38-42cb-ba83-1a897e46dbb6" absoluteBounds="3.765, 4.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2973197f-04db-4019-aaa4-c289316ddd17" absoluteBounds="6.75, 0.75, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/DataAccessDataContext/packetUploadServiceTbl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="451bd46f-aab2-4ce7-b7f2-13d222d912d2" absoluteBounds="6.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0683b61b-ec7a-4aa8-aa7c-d21a9e1895c4" absoluteBounds="6.75, 3.75, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/DataAccessDataContext/tokenUploadServiceTbl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4fa5374c-9466-4c60-b748-929b6ced6483" absoluteBounds="6.765, 4.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="af53a7d2-8390-4188-8948-c1b6fb6e0609" absoluteBounds="3.5, 0.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DataAccessDataContext/userReserveTbl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0ef3c834-f38c-450b-97d8-80fd33b49109" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.76044840494792); (3.5 : 1.76044840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataAccessDataContext/userTbl/userTbl_userReserveTbl" />
+      <nodes>
+        <classShapeMoniker Id="f812d5a3-d6d1-40b5-a915-43e5a4450206" />
+        <classShapeMoniker Id="af53a7d2-8390-4188-8948-c1b6fb6e0609" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,409 @@
+﻿@model LMSPricing.Models.RegisterOrderViewModel
+@{
+    Layout = null;
+}
+
+
+<!doctype html>
+<html lang="fa">
+
+<head id="head1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:locale" content="fa_IR" />
+    <meta name="Robots" content="index, follow" />
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../css/core.css" />
+
+
+    <title>
+        دورآموز | خرید بسته
+    </title>
+</head>
+
+<body class="fixed-footer stickyheader">
+
+   <div class="site">
+       <div id="headermenu-anchor"></div>
+       <header id="headermenu" class="site-header classic relative">
+           <div class="container">
+               <div class="header-wrap clearfix">
+                   <div class="logo pull-left">
+                       <h1><a href="/"><small>سیستم مدیریت آموزش</small>دورآموز</a></h1>
+                   </div>
+                   <nav class="site-navigation pull-right">
+                       <div class="mobile-wrap">
+
+                           <div class="above-nav-bar">
+                               <ul class="contact-info transparent">
+                                   <li><i class="fa fa-phone"></i> <span class="white">021-84015678</span></li>
+                                   <li><i class="fa fa-envelope"></i> <span class="white">info@tana.ir</span></li>
+
+                               </ul>
+                               <ul class="social social-transparent-border">
+                                   <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                   <li><a href="#" target="_blank"><i class="fa fa-paper-plane"></i></a></li>
+                               </ul>
+                               <a href="/agent/اخذ-نمایندگی-دورآموز" id="alogin" class="btn btn-light btn-dash btn-sm">اخذ نمایندگی</a>
+                               <div class="visible-xs" style="height:3px;">
+                               </div>
+                               <a href="/order/2" id="alogin" class="btn btn-info btn-dash btn-sm">پیشنهاد ویژه</a>
+
+                           </div>
+                           <!-- /Above Navbar -->
+                           <!-- Main menu -->
+                           <ul id="main-menu" class="main-menu">
+                               <li class="menu-item">
+                                   <a href="#headermenu-anchor">نخست</a>
+                               </li>
+
+                               <li class="menu-item menu-item-has-children">
+                                   <a href="/#anchor-lms">LMS چیست؟</a>
+                                   @*<ul class="sub-menu">
+                                    <li class="menu-item"><a href="page/%d8%b7%d8%b1%d8%a7%d8%ad%db%8c-%d9%88%d8%a8%d8%b3%d8%a7%db%8c%d8%aa-%d8%b4%d8%b1%da%a9%d8%aa%db%8c.html"></a></li>
+                                    <li class="menu-item"><a href="page/%d8%b7%d8%b1%d8%a7%d8%ad%db%8c-%d9%88%d8%a8%d8%b3%d8%a7%db%8c%d8%aa-%d8%b4%d8%ae%d8%b5%db%8c.html"></a></li>
+                                    <li class="menu-item"><a href="page/%d8%a8%d9%87%db%8c%d9%86%d9%87-%d8%b3%d8%a7%d8%b2%db%8c-%d8%b3%d8%a7%db%8c%d8%aa-%d8%a8%d8%b1%d8%a7%db%8c-%d9%85%d9%88%d8%aa%d9%88%d8%b1%d9%87%d8%a7%db%8c-%d8%ac%d8%b3%d8%aa%d8%ac%d9%88-seo.html"></a></li>
+                                </ul>*@
+                               </li>
+
+                               <li class="menu-item menu-item-has-children">
+                                   <a href="/#anchor-subs">زیرسامانه ها</a>
+                               </li>
+
+                               <li class="menu-item ">
+                                   <a href="/#anchor-pack">بسته ها</a>
+                               </li>
+
+                               <li class="menu-item">
+                                   <a href="/#anchor-customers">مشتریان</a>
+                               </li>
+                               <li class="menu-item">
+                                   <a href="/agent/اخذ-نمایندگی-دور-آموز">اخذ نمایندگی</a>
+                               </li>
+                               <li class="menu-item">
+                                   <a href="/#contactus">تماس با ما</a>
+                               </li>
+                           </ul>
+                       </div>
+                       <span class="burger pull-right"> <span class="burger-top"></span> <span class="burger-middle"></span> <span class="burger-bottom"></span> </span>
+                   </nav>
+               </div>
+           </div>
+       </header>
+        
+                <main class="site-main">
+
+
+
+                <div class="page-header page-header-sm">
+                    <h1 class="text-uppercase page-title">سفارش خرید سامانه مدیریت آموزش مجازی </h1>
+                </div>
+
+
+
+                <div class="breadcrumb">
+                    <div class="container">
+                        <ol>
+                            <li><a href="../index.html">نخست</a></li>
+                            <li class="active">سفارش خرید سامانه مدیریت آموزش مجازی</li>
+                        </ol>
+                    </div>
+                </div>
+
+
+
+
+                <section class="section ">
+                    <div class="container">
+                        <div class="row">
+
+
+
+                            <div class="col-md-6">
+                                <div class="ordertxt">
+
+                                    <b>مراحل سفارش سامانه دورآموز به شرح زیر است:</b><br />
+
+                                    <br />
+                                    <ul>
+                                        <li>از طریق فرم موجود بسته درخواستی خود را انتخاب و بصورت آنلاین پرداخت نمایید </li>
+                                        <li>بعد از خرید شما، کارشناسان فروش ما با شما تماس گرفته و عملیات پشتیبانی آغاز میشود</li>
+                                        <li>بعد از دریافت اطلاعات اولیه از شما به واحد پشتیبانی فنی ارجاع داده میشوید</li>
+                                        <li>کارشناسان ما در مدت زمان 3 روز سامانه ی خریداری شده ی شمارا بروی فضای میزبانی خریداری شما بارگذاری می نمایند</li>
+                                        <li>بعد از نصب سامانه، مراحل آموزش آن توسط کارشناسان ما به شما آغاز میشود</li>
+                                        <li>بعد از مراحل آموزش، ما بصورت آنلاین آماده ی پشتیبانی و کمک به شما عزیزان هستیم </li>
+                                    </ul>
+                                    <img src="../images/%d8%b3%d9%81%d8%a7%d8%b1%d8%b4-%d8%b7%d8%b1%d8%a7%d8%ad%db%8c-%d8%b3%d8%a7%db%8c%d8%aa-%d9%85%d8%b4%d9%87%d8%af.png" class="center-block hidden-sm hidden-xs" alt="سامانه آموزش مجازی دورآموز" />
+
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="title margin-bottom-small">سفارش خرید سامانه مدیریت آموزش مجازی دورآموز</h3>
+
+                                <form action="/order" method="post">
+                                    @*@Html.AntiForgeryToken()*@
+                                    <div class="contact-form row">
+                                        <fieldset class="form-group col-md-7">
+
+                                            <select name="packetList" id="packetList">
+                                                @{
+                                                    if (Model.packetList.value == 0)
+                                                    {
+                                                        <option selected="selected" value="0">نوع بسته را انتخاب کنید</option>
+                                                    }
+                                                    else
+                                                    {
+                                                        <option value="0">نوع بسته را انتخاب کنید</option>
+                                                    }
+                                                    if (Model.packetList.value == 1)
+                                                    {
+                                                        <option selected="selected" value="1">بسته برلیان دورآموز [5،000،000 تومان]</option>
+                                                    }
+                                                    else
+                                                    {
+                                                        <option value="1">بسته برلیان دورآموز [5،000،000 تومان]</option>
+                                                    }
+                                                    if (Model.packetList.value == 2)
+                                                    {
+                                                        <option selected="selected" value="2">بسته طلایی دورآموز [3،000،000 تومان]</option>
+                                                    }
+                                                    else
+                                                    {
+                                                        <option value="2">بسته طلایی دورآموز [3،000،000 تومان]</option>
+                                                    }
+                                                    if (Model.packetList.value == 3)
+                                                    {
+                                                        <option selected="selected" value="3">بسته نقره دورآموز [2،000،000 تومان]</option>
+                                                    }
+                                                    else
+                                                    {
+                                                        <option value="3">بسته نقره دورآموز [2،000،000 تومان]</option>
+                                                    }
+                                                    if (Model.packetList.value == 4)
+                                                    {
+                                                        <option selected value="4">بسته برنز دورآموز [1،000،000 تومان]</option>
+                                                    }
+                                                    else
+                                                    {
+                                                        <option value="4">بسته برنز دورآموز [1،000،000 تومان]</option>
+                                                    }
+                                                }
+                                               
+                                            </select>
+
+                                            @{
+                                                if (Model.packetList.message != "")
+                                                {
+                                                    <span class="alert-danger">@Model.packetList.message</span>
+                                                }
+                                            }
+                                           
+                                        </fieldset>
+                                        <fieldset class="form-group col-md-7">
+
+                                            <select name="hostList" id="hostList">
+                                                @{
+                                                    if (Model.hostList.value == 0)
+                                                    {
+                                                        <option selected="selected" value="0">فضای میزبانی و دامنه</option>
+                                                    }
+                                                    else
+                                                    {
+                                                        <option value="0">فضای میزبانی و دامنه</option>
+                                                    }
+                                                    if (Model.hostList.value == 1)
+                                                    {
+                                                        <option selected="selected"  value="1">فضای میزبانی و دامنه دارم</option>
+                                                    }
+                                                    else
+                                                    {
+                                                        <option  value="1">فضای میزبانی و دامنه دارم</option>
+                                                    }
+                                                    if (Model.hostList.value == 2)
+                                                    {
+                                                        <option selected="selected" value="2">فضای میزبانی ندارم، دامنه دارم</option>
+                                                    }
+                                                    else
+                                                    {
+                                                        <option value="2">فضای میزبانی ندارم، دامنه دارم</option>
+                                                    }
+                                                    if (Model.hostList.value == 3)
+                                                    {
+                                                        <option selected="selected" value="3">فضای میزبانی دارم، دامنه ندارم</option>
+                                                    }
+                                                    else
+                                                    {
+                                                        <option value="3">فضای میزبانی دارم، دامنه ندارم</option>
+                                                    }
+                                                    if (Model.hostList.value == 4)
+                                                    {
+                                                        <option selected="selected" value="4">فضای میزبانی ندارم، دامنه ندارم</option>
+                                                    }
+                                                    else
+                                                    {
+                                                        <option  value="4">فضای میزبانی ندارم، دامنه ندارم</option>
+                                                    }
+                                                }
+                                              
+                                            </select>
+                                            @{
+                                                if (Model.hostList.message != "")
+                                                {
+                                                    <span class="alert-danger">@Model.hostList.message</span>
+                                                }
+                                            }
+                                        </fieldset>
+                                        <fieldset class="form-group col-md-7">
+                                            <input name="fullName" type="text" value="@Model.fullName.value" id="fullName" placeholder="نام و نام خانوادگی"  />
+                                            @{
+                                                if (Model.fullName.message != "")
+                                                {
+                                                    <span class="alert-danger">@Model.fullName.message</span>
+                                                }
+                                            }
+                                        </fieldset>
+
+                                        <fieldset class="form-group col-md-7">
+                                            <input name="mobile" value="@Model.mobile.value"  type="text" id="mobile" maxlength="11" placeholder="شماره موبایل"  />
+                                            @{
+                                                if (Model.mobile.message != "")
+                                                {
+                                                    <span class="alert-danger">@Model.mobile.message</span>
+                                                }
+                                            }
+                                        </fieldset>
+                                        <fieldset class="form-group col-md-7">
+                                            <input name="email" value="@Model.email.value" type="email" id="email" placeholder="ایمیل" />
+                                            @{
+                                                if (Model.email.message != "")
+                                                {
+                                                    <span class="alert-danger">@Model.email.message</span>
+                                                }
+                                            }
+                                        </fieldset>
+                                        <fieldset class="form-group col-md-12">
+
+                                            <textarea name="explain" rows="2" cols="20" id="explain" class="textarea" placeholder="توضیحات در مورد بسته درخواستی" >@Model.explain.value</textarea>
+                                            <label for="message"></label>
+                                        </fieldset>
+
+                                        <fieldset class="form-group col-md-7">
+                                            <input type="submit" name="submit" value="ارسال سفارش" id="submit" class="btn btn-normal btn-md" />
+                                        </fieldset>
+
+                                        <div class="text-center spinner col-md-12 hidden"><i class="fa fa-spinner fa-pulse"></i></div>
+                                        <div class="info col-md-12"></div>
+
+                                        <div class="clearfix"></div>
+                                        <br /><br />
+                                        <b>* محصولات ما با جدیدترین تکنولوژی های روز دنیا طراحی و پیاده سازی میشوند.</b>
+                                        <br /><br />
+                                    </div>
+                                </form>
+                                <!-- /Contact form -->
+                            </div>
+
+                            
+
+                        </div>
+                        <div class="row">
+
+
+                        </div>
+                    </div>
+                </section>
+                <script src="../js/jquery.min.js"></script>
+
+
+
+            </main>
+       <div id="contactus"></div>
+       <footer class="site-footer">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-4">
+
+                       <div class="widget widget-image">
+                           <h4 class="widget-title">درباره ما</h4>
+                       </div>
+
+                       <div class="widget widget-text">
+                           <p>
+                               <a href="/">سامانه مدیریت آموزش مجازی دورآموز ،</a>
+                               از سال 1385 با هدف فراهم نمودن امکان دسترسی یکسان و جستجو پذیر در دوره های درسی، ایجاد فضای آموزشی یکنواخت برای اقشار مختلف در هر نقطه و همچنین بهینه سازی شیوه های ارائه مطالب درسی به منظور یادگیری عمیق تر و جدی تر فعالیت خود را آغاز نموده و همچنان با تلاشی روز افزون جهت تحقق اهداف خود تلاش می نماید.
+                           </p>
+                       </div>
+
+                   </div>
+                   <div class="col-md-2">
+
+                       <div class="widget widget-nav-menu">
+                           <h4 class="widget-title">منو</h4>
+                           <ul class="menu">
+                               <li class="menu-item"><a href="/#anchor-lms">LMS چیست؟</a></li>
+                               <li class="menu-item"><a href="/#anchor-lms">دورآموز آنلاین</a></li>
+                               <li class="menu-item"><a href="/#anchor-lms">دورآموز آفلاین</a></li>
+                               <li class="menu-item"><a href="/#anchor-public">امکانات عمومی دورآموز</a></li>
+                               <li class="menu-item"><a href="#headermenu-anchor">نخست</a></li>
+
+                           </ul>
+                       </div>
+
+                   </div>
+                   <div class="col-md-3">
+
+                       <div class="widget widget-contact-info">
+                           <h4 class="widget-title">تماس با ما</h4>
+                           <ul class="contact-info">
+                               <li class="important"><i class="fa fa-comment"></i><a>ارسال پیام</a></li>
+                               <li class="ltr"><i class="fa fa-phone"></i> (021) 84015678</li>
+                               <li class="ltr"><i class="fa fa-fax"></i> (021) 84015010</li>
+                               <li class="ltr"><i class="fa fa-envelope"></i> info@tana.ir</li>
+                           </ul>
+                       </div>
+
+                   </div>
+                   <div class="col-md-3">
+
+                       <div class="widget widget-text">
+                           <h4 class="widget-title">سفارش خرید دورآموز</h4>
+                           <p>
+                               <b><i class="fa fa-chevron-left"></i></b><a href="/order/1">خرید بسته برلیان</a><br />
+                               <b><i class="fa fa-chevron-left"></i></b><a href="/order/2">
+                                   خرید بسته نقره ای
+                               </a><br />
+                               <b><i class="fa fa-chevron-left"></i></b><a href="/order/3">
+                                   خرید بسته طلایی
+                               </a><br />
+                               <b><i class="fa fa-chevron-left"></i></b><a href="/order/4">
+                                   خرید بسته نقره ای
+                               </a><br />
+                               <br />
+                           </p>
+
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+
+       </footer>
+        </div>
+
+    
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/bootstrap/bootstrap.min.js"></script>
+    <script src="~/js/doubletaptogo.js"></script>
+    <script src="~/js/waypoints/jquery.waypoints.min.js"></script>
+
+
+    <script src="~/js/functions.js"></script>
+    <script type="text/javascript">$crisp=[];CRISP_WEBSITE_ID="3e313787-4120-43b1-afa1-ff755c4b6c9d";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.im/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+    
+</body>
+
+
+</html>

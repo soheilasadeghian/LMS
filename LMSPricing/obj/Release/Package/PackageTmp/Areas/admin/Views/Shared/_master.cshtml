@@ -1,0 +1,95 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="سامانه آموزش مجازی دورآموز">
+    <meta name="author" content="توسعه ارتباطات نوین آریا">
+    <title>@ViewBag.Title - دورآموز</title>
+
+    @Styles.Render("~/Areas/Content/css")
+
+
+</head>
+<body>
+    @Html.AntiForgeryToken()
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/admin/dashboard/داشبورد">دورآموز</a>
+            </div>
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> 
+                        @{
+                            if (LMSPricing.Areas.admin.ClassCollection.Method.isAdminLogin(HttpContext.Current))
+                            {
+                                <span> @LMSPricing.Areas.admin.ClassCollection.Method.getAdmin(HttpContext.Current).name @LMSPricing.Areas.admin.ClassCollection.Method.getAdmin(HttpContext.Current).family</span>
+                            }
+                        }
+                    
+                     <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="/admin/logout/خروج"><i class="fa fa-fw fa-power-off"></i> خروج</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li>
+                        <a href="/admin/dashboard/داشبورد"><i class="fa fa-fw fa-dashboard"></i> داشبورد</a>
+                    </li>
+
+                    <li>
+                        <a href="/admin/user/list/کاربران"><i class="fa fa-fw fa-user"></i> کاربران </a>
+                    </li>
+
+                    <li>
+                        <a href="/admin/course/list/دوره های رزرو شده"><i class="fa fa-fw fa-user"></i> دوره های رزرو شده </a>
+                    </li>
+                   
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                @RenderBody()
+
+                
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+        <div class="footer mt-20 " style="color:#fff">
+
+            <p>تمامی حقوق این سامانه، متعلق به شرکت بين المللی توسعه ارتباطات نوين آريا (<a href="http://callwithme.com/fa" target="_blank">تانا</a>) می‌باشد.</p>
+            <p>Copyright <span class="font-15">©</span> 2016 - 2017</p>
+        </div>
+        <div class="clear"></div>
+        <!-- /#page-wrapper -->
+    </div>
+
+
+   
+    @Scripts.Render("~/admin/bundles/script")
+
+    @RenderSection("js", false);
+</body>
+</html>
