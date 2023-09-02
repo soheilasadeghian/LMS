@@ -1,5 +1,5 @@
 # LMS
-Website for selling learning packages with Zarin Pal payment gateway and a brief management panel
+Website for selling learning packages with Zarinpal payment gateway and a brief management panel
 
 ## Overview
 The project “LMS” is a responsive website made with Asp.Net MVC Technology using
@@ -118,6 +118,6 @@ For support, [click here](https://github.com/soheilasadeghian).
 If you liked the project, please give a star :)
 
 ## License
-[MIT](https://github.com/MehdiMst00/Zarinpal.AspNetCore/blob/master/LICENSE.txt)
+[MIT](https://github.com/soheilasadeghian/LMS/blob/main/LICENSE)
 
 
