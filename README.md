@@ -46,10 +46,12 @@ The project “LMS” is a responsive website made with Asp.Net MVC Technology u
 
 <br/>
 
-- **create and send request**
+- **create and send request with**
 - **Catch Authority**
 - **save factor and Authority in DB**
 - **redirect user to zarinpal StartPay page with authority**
+
+✔️ a unique identification number attached to a business that tells the payment processing systems involved in a transaction where to send which funds\
 
 ```C#
 description = "Buying a bronze package";
